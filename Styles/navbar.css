@@ -1,0 +1,170 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  color: white;
+  background-color: black;
+  top: 0;
+  bottom: 60px;
+  left: 0;
+  width: 205px;
+  padding-top: 18px;
+  align-items: center;
+  z-index: 3;
+}
+.top-section {
+  margin-bottom: 20px;
+}
+
+/* .icons-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+} */
+
+.icons-section {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  justify-content: left;
+  padding-left: 50px;
+  align-items: center;
+  margin-bottom: 13px;
+  
+  
+}
+
+.icons-name {
+  font-family:  var(--font-family,CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+  font-size: 11px;
+  font-weight: 600;
+  /* padding-top: 5px; */
+  margin-left: 10px;
+}
+.sp-logo {
+  width: 106px;
+  margin-left: -45px;
+
+}
+
+.home-icon {
+  width: 23px;
+}
+
+.search-icon {
+  width: 18px;
+  margin-left: 3px;
+  margin-right: 2px;
+  
+}
+
+.lib-icon {
+  width: 23px;
+  ;
+}
+
+.create-icon {
+  width: 20px;
+  margin-top: 15px;
+}
+
+.likedsongs-icon {
+  width: 17px;
+}
+
+.icons-name-search {
+  font-family:  var(--font-family,CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+  font-size: 11px;
+  font-weight: 600;
+  padding-top: 3px;
+  margin-left: 10px;
+  color: rgb(147, 147, 147);
+}
+
+.icons-name-lib {
+  font-family:  var(--font-family,CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+  font-size: 11px;
+  font-weight: 600;
+  padding-top: 3px;
+  margin-left: 10px;
+  color: rgb(147, 147, 147);
+}
+
+.icons-name-create {
+  font-family:  var(--font-family,CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+  font-size: 11px;
+  font-weight: 600;
+  padding-top: 3px;
+  margin-top: 15px;
+  margin-left: 10px;
+  color: rgb(147, 147, 147);
+}
+
+.icons-name-liked {
+  font-family:  var(--font-family,CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+  font-size: 11px;
+  font-weight: 600;
+  padding-top: 0px;
+
+  margin-left: 10px;
+  color:rgb(147, 147, 147);
+}
+
+.bottom-section {
+  margin-top: 55px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  row-gap: 10px;
+  justify-content: left;
+  width: 150px;
+  /* margin-left: -65px; */
+}
+
+.bottom-section div {
+  font-family:  var(--font-family,CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+  color: rgb(170, 167, 167);
+  font-size: 9px;
+  margin-right: 13px;
+  margin-top: 6px;
+}
+
+.language-button button {
+  font-family:  var(--font-family,CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+  margin-top: 25px;
+  margin-left: -75px;
+  background-color: black;
+  color: white;
+  border: 1px solid rgb(141, 141, 141);
+  font-size: 14px;
+  padding: 0px 3px 4px 3px;
+  text-align: center;
+  border-radius: 40px;
+  width: 75px;
+  height: 27px;
+  transition: width 0.1s,
+              height 0.1s,
+              border-color 0.1s;
+}
+.lang-font {
+  font-family: Roboto;
+  font-size: 10px;
+  font-weight: 700px;
+  margin-left: 2px;
+}
+
+.language-button:hover button {
+  width: 77px;
+  height: 29px;
+  border-color: white;
+  cursor: pointer;
+}
+
+.icons-section:hover div {
+  color: rgb(215, 215, 215);
+  cursor: pointer;
+}
+.icons-section div{
+  transition: color 0.3s,
+              cursor 0.1s;
+}
